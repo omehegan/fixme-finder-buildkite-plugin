@@ -1,0 +1,8 @@
+#!/bin/bash
+set -euo pipefail
+
+echo "--- Searching for 'FIXME' in your project"
+
+grep -r -nH --color FIXME *
+
+echo "Finished checking for FIXME lines"
