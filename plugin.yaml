@@ -1,0 +1,4 @@
+name: Fixme Finder
+description: Finds all instances of 'FIXME' in your codebase
+author: https://github.com/omehegan
+requirements: ['grep']
